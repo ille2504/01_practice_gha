@@ -1,8 +1,10 @@
 name: Firts workflow
-on: workflow_dispatch
+on: push
 jobs:
   GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
         - name: Print Hello World
-          run: echo "Hello World"
+          run: |
+            echo "Hello World"
+            echo "This is my first workflow"
