@@ -1,5 +1,5 @@
-name: Test Project
-on: push 
+name: Test Project dispatch
+on: workflow_dispatch 
 jobs:
     test:
         runs-on: ubuntu-latest
